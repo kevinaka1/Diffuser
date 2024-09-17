@@ -43,7 +43,8 @@
     small_commands.txt - contains a small number of commands that will be ran through the user and reference rock paper scissors game file
 
 4. How to Install and Run the Project
-    1. Currently, diffuser only works compares python files for Mac
+    1. Currently, Diffuser only compares Python files for Mac (fortunately I'm working on allowing it to compare multiple
+        languages on multiple computers
     2. Download diffuser.py and make sure it's in the same folder your file, the reference file, and the commands file
     3. To run the file, in your terminal type, python3 diffuser.py, then type 3 arguments: the user file name, the reference file name, and the commands file name.
         Ex: python3 diffuser.py -ufn "rps_user.py" -rfn "rps_reference.py" -cfn "commands.txt"
