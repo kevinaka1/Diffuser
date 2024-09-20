@@ -5,7 +5,7 @@
     If you are creating a program where its output must match the output of a reference program, Diffuser
     helps your debug your program by returning useful information that will help you pinpoint the code in
     your program that's causing the difference. Diffuser runs a command file through your file and the 
-    reference file, and then compares the outputs of both files. The program stops comparing when the first
+    reference file, and compares the outputs of both files. The program stops comparing when the first
     difference of your file’s output and the reference file’s output occurs. In addition, we return useful
     information that will help with debugging your program such as:
         1. The line number and the specific command that caused this difference
