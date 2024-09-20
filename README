@@ -4,20 +4,19 @@
 2. Project Description/Purpose of Program
     If you are creating a program where its output must match the output of a reference program, Diffuser
     helps your debug your program by returning useful information that will help you pinpoint the code in
-    your program that's causing the difference. This project runs a command file through your file and the 
-    reference’s file. It compares the outputs of both files and stops the 
-    program when the first difference of your file’s output and the reference
-    file’s output occurs. In addition, we return several things that may help
-    with debugging your program such as:
+    your program that's causing the difference. Diffuser runs a command file through your file and the 
+    reference file, and then compares the outputs of both files. The program stops comparing when the first
+    difference of your file’s output and the reference file’s output occurs. In addition, we return useful
+    information that will help with debugging your program such as:
         1. The line number and the specific command that caused this difference
-        2. The output that your program printed when this command was run and
+        2. The output that your program printed when this command was ran and
         the output that the reference program printed when this command was 
-        run. Within these outputs, we show you where the difference in outputs
+        ran. In addition, within these outputs, we show you where the difference in outputs
         specifically occurs. 
         3. Your program’s output file and the reference program’s output file
         up until the difference occurred.
     Most computer terminals have a command called diff which allows you to
-    compare two different files. Diff then prints a side by side view of these
+    compare two different files. Then, diff prints a side by side view of these
     files starting from where the difference occurs. While this is useful, when
     it comes to files with larger commands and larger outputs it becomes harder
     to pinpoint exactly where to start debugging. Perhaps your program starts
