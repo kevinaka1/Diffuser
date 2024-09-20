@@ -6,7 +6,7 @@
     helps your debug your program by returning useful information that will help you pinpoint the code in
     your program that's causing the difference. Diffuser runs a command file through your file and the 
     reference file, and compares the outputs of both files. The program stops comparing when the first
-    difference of your file’s output and the reference file’s output occurs. In addition, we return useful
+    difference of your file’s output and the reference file’s output occurs. In addition, it return useful
     information that will help with debugging your program such as:
         1. The line number and the specific command that caused this difference
         2. The output that your program printed when this command was ran and
@@ -17,9 +17,11 @@
         up until the difference occurred.
     Most computer terminals have a command called diff which allows you to
     compare two different files. Then, diff prints a side by side view of these
-    files starting from where the difference occurs. While this is useful, when
-    it comes to files with larger commands and larger outputs it becomes harder
-    to pinpoint exactly where to start debugging. Perhaps your program starts
+    files starting from where the difference occurs. While this is useful to help you
+    pinpoint the code in your program that's causing the difference, it becomes harder
+    to do this when you are dealing with larger commands files, which means more output.
+    Since your dealing with more output, it becomes harder to sort through the output and
+    determine which command in the list of commands caused the difference. Perhaps your program starts
     to break due to not being able to handle so many outputs. With diff, it
     will be harder for you to find exactly how many commands your program can
     handle until it falls apart. You are going to have to create multiple
