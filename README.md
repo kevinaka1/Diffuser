@@ -1,7 +1,7 @@
 1. **Project Title**  
    Diffuser
 
-2. Project Description/Purpose of Program  
+2. **Project Description/Purpose of Program**  
     If you are creating a program where its output must match the output of a reference program, Diffuser
     helps your debug your program by returning useful information that will help you pinpoint the code in
     your program that's causing the difference. Diffuser runs a command file through your file and the 
@@ -30,7 +30,7 @@
     your program starts to fail and gives you the info you need to pinpoint
     where you need to debug your programs. 
  
-3. A list of files that you provided and a short description of what each file is and its purpose  
+3. **A list of files that you provided and a short description of what each file is and its purpose**  
    * commands.txt - contains a large number of commands that will be ran through the user and reference rock paper
                    scissors game file    
     
@@ -49,7 +49,7 @@
    * small_commands.txt - contains a small number of commands that will be ran through the user and reference rock paper
                          scissors game file
 
-5. How to Install and Run the Project
+5. **How to Install and Run the Project**
     1. Currently, Diffuser only compares Python files for Mac (fortunately I'm working on allowing it to compare multiple
         languages on multiple computers).
     2. Download diffuser.py and make sure it's in the same folder your file, the reference file, and the commands file
