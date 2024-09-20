@@ -2,9 +2,9 @@
     Diffuser
 
 2. Project Description/Purpose of Program
-    This program is supposed to help with debugging when you are writing a 
-    program and your program must match the output of a reference program 
-    exactly. This project runs a command file through your file and the 
+    If you are creating a program where its output must match the output of a reference program, Diffuser
+    helps your debug your program by returning useful information that will help you pinpoint the code in
+    your program that's causing the difference. This project runs a command file through your file and the 
     reference’s file. It compares the outputs of both files and stops the 
     program when the first difference of your file’s output and the reference
     file’s output occurs. In addition, we return several things that may help
